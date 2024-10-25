@@ -117,7 +117,7 @@ h2:nth-child(3)
 }
 h2:first-child{
     color:blue;
-    background-color: white;
+
 }
 h2:last-child{
     color: aqua;
@@ -140,4 +140,29 @@ h2:last-child{
     
     
  
+}
+.flexbox{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: aqua;
+    flex-direction: row;
+    /* !Justify content holo kono box element ke right-left e moove korar ekta systam */
+    justify-content: center ; /* flex start default,
+    space around bolle je sob row te sob element fill up thakbe tar right left e space create hobe tobe prothom element ar last element er right left e kono space thakbe na ebong oi row ta complete row hobe,  kintu last unfill up thaka element gulo space beshi thakbe ehong er maddhome row fill up hobe na,
+    ar space-between holo sob element emon bhabe  thakbe, prothom element ar last element er right left e space thakbe na, tobe majkhaner element gulo te onek space create hote pare.
+     */
+     
+     /* !align item holo ekta system jar maddhome box element gulo ke amra chaile top bottom e moove korte pari */
+     align-items:center;
+     /* jodi flex start kora hoy taile first line box er top er sathe lagano obosthay thakbe, ar jodi flex end kora hoy taile last line ta box er bottom er sathe lagano thakbe, ar jodi center kora hoy taile ekebare center e thakbe
+      */
+}
+.flexbox > div{
+    font-size: 35px;
+    background-color: grey;
+    margin: 5px;
+    padding: 5px;
+    width:100px
 }
