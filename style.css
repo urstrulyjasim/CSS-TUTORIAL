@@ -154,15 +154,44 @@ h2:last-child{
     ar space-between holo sob element emon bhabe  thakbe, prothom element ar last element er right left e space thakbe na, tobe majkhaner element gulo te onek space create hote pare.
      */
      
-     /* !align item holo ekta system jar maddhome box element gulo ke amra chaile top bottom e moove korte pari */
+     /* !align item holo ekta system jar maddhome box element gulo ke amra chaile top bottom e move korte pari */
      align-items:center;
      /* jodi flex start kora hoy taile first line box er top er sathe lagano obosthay thakbe, ar jodi flex end kora hoy taile last line ta box er bottom er sathe lagano thakbe, ar jodi center kora hoy taile ekebare center e thakbe
       */
 }
-.flexbox > div{
-    font-size: 35px;
-    background-color: grey;
-    margin: 5px;
-    padding: 5px;
-    width:100px
+.header
+{
+    margin: 0px;
+    background-color: black;
+    display: flex;
+    gap: 600px;
+    margin-left: 0px;
+}
+.header .nav-bar ul li{
+    text-decoration: none;
+    list-style: none;
+  
+  
+}
+.lol{
+    display: flex;
+    
+   
+    li a{
+        margin-top: 0;
+        padding: 15px 25px 15px 25px;
+        color: white;
+        font-weight: bold;
+        background-color: rgba(62, 54, 54, 0.99);
+        border: 1px solid rgb(141, 120, 120);
+    }
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+}
+.logo{
+    color:white;
+    margin-left: 0;
 }
